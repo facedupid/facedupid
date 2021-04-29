@@ -16,6 +16,9 @@
         <module>facedupid-payment</module>
         <module>facedupid-consumer</module>
         <module>facedupid-eureka-server</module>
+        <module>facedupid-nacos-payment</module>
+        <module>facedupid-nacos-consumer</module>
+        <module>facedupid-nacos-config-demo</module>
     </modules>
 
     <properties>
@@ -125,6 +128,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.10.RELEASE</version>
                 <configuration>
                     <fork>true</fork>
                     <addResources>true</addResources>

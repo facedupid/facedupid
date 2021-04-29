@@ -25,7 +25,7 @@ public class PaymentController {
         int count = paymentService.create(payment);
         log.info("插入结果：" + count);
         if (count > 0) {
-            return new CommonResult(200, "插入成功:" + port, count);
+            return new CommonResult(200, "插入成功了:" + port, count);
         }
         return new CommonResult(400, "插入失败:" + port, count);
     }
@@ -39,4 +39,6 @@ public class PaymentController {
         else
             return new CommonResult(400, "没有查到:" + port + id, null);
     }
+
+
 }

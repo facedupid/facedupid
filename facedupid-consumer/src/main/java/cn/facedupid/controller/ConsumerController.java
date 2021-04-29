@@ -33,4 +33,9 @@ public class ConsumerController {
         return restTemplate.postForObject(URL, payment, CommonResult.class);
     }
 
+    @GetMapping
+    public String test(){
+        return "success";
+    }
+
 }
