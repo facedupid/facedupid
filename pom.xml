@@ -11,14 +11,11 @@
 
     <modules>
         <module>facedupid-common</module>
-        <module>facedupid-mbg</module>
-        <module>facedupid-security</module>
-        <module>facedupid-payment</module>
         <module>facedupid-consumer</module>
-        <module>facedupid-eureka-server</module>
-        <module>facedupid-nacos-payment</module>
-        <module>facedupid-nacos-consumer</module>
-        <module>facedupid-nacos-config-demo</module>
+        <module>facedupid-auth</module>
+        <module>facedupid-getaway</module>
+        <module>facedupid-producer</module>
+
     </modules>
 
     <properties>
@@ -39,7 +36,7 @@
     <dependencyManagement>
         <dependencies>
             <!--            String Cloud 相关依赖 -->
-            <!--spring cloud Hoxton.SR8-->
+            <!--spring cloud Hoxton.SR10-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
