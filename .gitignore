@@ -32,7 +32,6 @@ log/
 # others
 *.jar
 *.war
-*.zip
 *.tar
 *.tar.gz
 *.pid
