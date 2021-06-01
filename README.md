@@ -6,3 +6,5 @@
 - 配置中心：spring cloud alibaba nacos
 - RPC：spring cloud alibaba dubbo
 - 网关：spring cloud gateway
+- 数据库：MySQL
+- ORM：Mybatis-Plus

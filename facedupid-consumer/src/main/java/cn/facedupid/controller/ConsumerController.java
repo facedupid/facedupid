@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @Slf4j
 @RequestMapping("/consumer")
-@RefreshScope
+@RefreshScope // 该注解 会使 配置中心的参数能够 实时更新
 public class ConsumerController {
 
     @Reference
