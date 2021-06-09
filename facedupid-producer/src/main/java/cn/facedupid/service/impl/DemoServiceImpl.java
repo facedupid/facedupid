@@ -1,4 +1,4 @@
-package cn.facedupid.service;
+package cn.facedupid.service.impl;
 
 import cn.facedupid.entities.User;
 import cn.facedupid.entities.producer.DemoService;

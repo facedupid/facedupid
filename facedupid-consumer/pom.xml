@@ -44,12 +44,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-<!--        &lt;!&ndash;        本来导入了 common 就应该自动导入 lombok的，但是没有，还需要研究一下&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.projectlombok</groupId>-->
-<!--            <artifactId>lombok</artifactId>-->
-<!--            <optional>true</optional>-->
-<!--        </dependency>-->
+        <!--redis依赖配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
