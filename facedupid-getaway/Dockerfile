@@ -8,4 +8,4 @@ RUN mvn package
 FROM openjdk:8-jre-alpine
 WORKDIR /app
 COPY --from=MAVEN_BUILD /build/facedupid-getaway/target/facedupid-getaway.jar /app/
-ENTRYPOINT java -jar facedupid-gateway.jar
+ENTRYPOINT java -jar facedupid-getaway.jar
