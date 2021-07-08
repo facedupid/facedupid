@@ -13,6 +13,6 @@
 ## 模块说明
 - facedupid-common：工具模块
 - facedupid-consumer：RPC消费者样例
-- facedupid-auth：认证
-- facedupid-getaway：网关
+- facedupid-auth：认证模块
+- facedupid-getaway：网关模块
 - facedupid-producer：RPC生产者样例
