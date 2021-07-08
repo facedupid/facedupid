@@ -27,7 +27,7 @@
             <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
         </dependency>
 
-        <!--        spring boot 必须依赖的2个包-->
+        <!--spring boot 必须依赖的2个包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,7 +37,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--        spring boot test jar 包-->
+        <!--spring boot test jar 包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

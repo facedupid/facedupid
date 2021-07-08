@@ -12,7 +12,7 @@
     <artifactId>facedupid-consumer</artifactId>
 
     <dependencies>
-        <!--        nacos 服务注册-->
+        <!--nacos 服务注册-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
@@ -22,12 +22,12 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
         </dependency>
-        <!--        RPC 调用包-->
+        <!--RPC 调用包-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-dubbo</artifactId>
         </dependency>
-        <!--        Spring Boot 固定导入的2个 jar -->
+        <!--Spring Boot 固定导入的2个 jar -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,7 +37,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--        自定义 通用模块-->
+        <!--自定义 通用模块-->
         <dependency>
             <groupId>cn.facedupid</groupId>
             <artifactId>facedupid-common</artifactId>
@@ -56,7 +56,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!--  热部署-->
+        <!--热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
