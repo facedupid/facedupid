@@ -15,6 +15,10 @@
         <module>facedupid-auth</module>
         <module>facedupid-getaway</module>
         <module>facedupid-producer</module>
+        <module>facedupid-architect</module>
+        <module>architect-api</module>
+        <module>facedupid-archiect/archiect-rpc</module>
+        <module>facedupid-archive</module>
 
     </modules>
 

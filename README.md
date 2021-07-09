@@ -12,6 +12,7 @@
 
 ## 模块说明
 - facedupid-common：工具模块
+- facedupid-archive：稿件模块
 - facedupid-consumer：RPC消费者样例
 - facedupid-auth：认证模块
 - facedupid-getaway：网关模块
