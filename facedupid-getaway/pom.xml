@@ -31,7 +31,7 @@
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
-        <!--  热部署-->
+        <!--热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -42,7 +42,7 @@
 
     <build>
         <finalName>${project.name}</finalName>
-        <!--        增加这个插件 打包出来的 jar 才能使用 java  -jar 启动 -->
+        <!--增加这个插件 打包出来的 jar 才能使用 java  -jar 启动 -->
         <plugins>
             <plugin>
 <!--                不设置version，会使用最新版本-->
