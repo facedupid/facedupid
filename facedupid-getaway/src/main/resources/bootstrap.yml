@@ -11,3 +11,19 @@ spring:
       config:
         server-addr: 39.105.93.74:8848
         file-extension: yaml
+
+dubbo:
+  registry:
+    address: nacos://39.105.93.74:8848
+  application:
+    name: facedupid-producer-service
+  protocol:
+    name: dubbo
+    port: -1
+  cloud:
+    subscribed-services: '*'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

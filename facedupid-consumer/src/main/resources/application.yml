@@ -1,3 +1,25 @@
 spring:
   profiles:
     active: dev
+  devtools:
+    add-properties: true
+
+# dubbo 配置
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://39.105.93.74:8848
+  cloud: # 指定要订阅的服务
+    subscribed-services: facedupid-producer-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# 支持 枚举扫描
+mybatis-plus:
+  # 支持统配符 * 或者 ; 分割
+  typeEnumsPackage: cn.facedupid.enums

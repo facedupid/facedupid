@@ -1,3 +1,21 @@
 spring:
   profiles:
     active: dev
+  devtools:
+    add-properties: true
+
+dubbo:
+  scan: # 指定duubbo 扫描的基准包
+    base-packages: cn.facedupid.service.impl
+  registry:
+    address: spring-cloud://39.105.93.74:8848
+  protocol: # 暴露的 协议配置
+    name: dubbo # 协议名
+    port: -1 # 协议端口,-i 表示自增 从 20880 开始
+  cloud:
+    subscribed-services: '*'
+
+# 支持 枚举扫描
+mybatis-plus:
+  # 支持统配符 * 或者 ; 分割
+  typeEnumsPackage: cn.facedupid.enums
