@@ -24,9 +24,14 @@
 
         <!--hutool 工具包-->
         <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
+            <groupId>cn.facedupid</groupId>
+            <artifactId>facedupid-common</artifactId>
         </dependency>
 
+        <!--映入mybatis-plus 依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 </project>

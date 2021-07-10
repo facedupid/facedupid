@@ -1,5 +1,6 @@
 package cn.facedupid.controller;
 
+import cn.facedupid.model.entity.User;
 import cn.facedupid.service.DemoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
@@ -18,5 +19,10 @@ public class ConsumerController {
     @GetMapping
     public String test(){
         return demoService.test();
+    }
+
+    @GetMapping("/user")
+    public User getUser(){
+        return demoService.getUser();
     }
 }

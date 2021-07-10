@@ -12,8 +12,8 @@ dubbo:
   protocol: # 暴露的 协议配置
     name: dubbo # 协议名
     port: -1 # 协议端口,-i 表示自增 从 20880 开始
-  cloud:
-    subscribed-services: '*'
+#  cloud: # 指定要订阅的服务
+#    subscribed-services: '*'
 
 # 支持 枚举扫描
 mybatis-plus:

@@ -18,8 +18,3 @@ management:
     web:
       exposure:
         include: '*'
-
-# 支持 枚举扫描
-mybatis-plus:
-  # 支持统配符 * 或者 ; 分割
-  typeEnumsPackage: cn.facedupid.enums

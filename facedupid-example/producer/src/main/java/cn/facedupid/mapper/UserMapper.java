@@ -1,6 +1,6 @@
 package cn.facedupid.mapper;
 
-import cn.facedupid.entities.User;
+import cn.facedupid.model.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 

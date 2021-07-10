@@ -12,6 +12,7 @@
     <artifactId>facedupid-common</artifactId>
     <description>公共模块</description>
 
+    <!--自动 get set 模块-->
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>

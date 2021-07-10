@@ -1,6 +1,6 @@
 package cn.facedupid.service.impl;
 
-import cn.facedupid.entities.User;
+import cn.facedupid.model.entity.User;
 import cn.facedupid.mapper.UserMapper;
 import cn.facedupid.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +29,7 @@ public class DemoServiceImpl implements DemoService {
      *
      * @return
      */
+    @Override
     public User getUser() {
         List<User> users = userMapper.selectList(null);
         return users.get(0);

@@ -1,6 +1,6 @@
 package cn.facedupid.controller;
 
-import cn.facedupid.entities.User;
+import cn.facedupid.model.entity.User;
 import cn.facedupid.service.impl.DemoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

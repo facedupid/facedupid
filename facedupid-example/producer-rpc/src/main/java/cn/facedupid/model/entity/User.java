@@ -1,8 +1,10 @@
-package cn.facedupid.entities;
+package cn.facedupid.model.entity;
 
 import cn.facedupid.enums.Gender;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * @author timothy
@@ -10,7 +12,7 @@ import lombok.Data;
  */
 @Data
 @TableName("user")
-public class User {
+public class User implements Serializable {
 
     private Long id;
     private String username;
