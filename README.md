@@ -12,8 +12,14 @@
 
 ## 模块说明
 - facedupid-common：工具模块
-- facedupid-archive：稿件模块
-- facedupid-consumer：RPC消费者样例
+- facedupid-example：样例模块
+  - consumer：RPC消费者样例
+  - producer:RPC生产者样例
+  - producer-rpc:RPC生产者样例接口
 - facedupid-auth：认证模块
+  - auth-api：web服务
+  - auth-rpc：对外rpc接口
 - facedupid-getaway：网关模块
-- facedupid-producer：RPC生产者样例
+- facedupid-archive：稿件模块
+  - archive-api：web服务
+  - archive-rpc：对外rpc接口

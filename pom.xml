@@ -11,12 +11,11 @@
 
     <modules>
         <module>facedupid-common</module>
-        <module>facedupid-consumer</module>
         <module>facedupid-auth</module>
         <module>facedupid-getaway</module>
-        <module>facedupid-producer</module>
+        <module>facedupid-example</module>
         <module>facedupid-archive</module>
-
+        <module>facedupid-archive</module>
     </modules>
 
     <properties>
@@ -142,7 +141,36 @@
                     <addResources>true</addResources>
                 </configuration>
             </plugin>
+            <plugin>
+                <!--用于生成项目报告-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
