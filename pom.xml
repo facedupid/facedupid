@@ -15,7 +15,6 @@
         <module>facedupid-getaway</module>
         <module>facedupid-example</module>
         <module>facedupid-archive</module>
-        <module>facedupid-archive</module>
     </modules>
 
     <properties>
