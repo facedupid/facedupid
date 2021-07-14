@@ -7,5 +7,5 @@ RUN mvn clean package install -Dmaven.test.skip=true
 
 FROM openjdk:8-jre-alpine
 WORKDIR /app
-COPY --from=MAVEN_BUILD /build/facedupid-example/consumer/target/producer.jar /app/
+COPY --from=MAVEN_BUILD /build/facedupid-example/consumer/target/consumer.jar /app/
 ENTRYPOINT java -jar consumer.jar
