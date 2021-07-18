@@ -4,7 +4,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: micro-oauth2-auth
+    name: facedupid-auth-service
   cloud:
     nacos:
       discovery:
